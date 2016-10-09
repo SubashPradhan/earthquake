@@ -1,0 +1,109 @@
+body{
+	background-image: url("wood.jpg");
+}
+
+.content{
+	width: 1295px; 
+	margin: auto;
+	background-color: #333300;
+
+}
+
+.image{
+	background-image: url("help.jpg");
+	height: 700px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center; 	
+}
+
+.nav ul{
+	list-style-type: none;
+	overflow: hidden;
+	width: 650px;
+}
+.nav{
+	position: relative;
+	top: 600px;
+}
+
+li{
+	display: inline-block;
+	margin: 30px;
+	padding: 10px;
+	text-align: center;
+	font-size: 30px;
+}
+
+li a{
+	color: #000000;
+}	
+
+li a:hover{
+	color: #ffffff;
+}
+button{
+	font-size: 40px;
+	float: right;
+	margin-right: 5px;
+}
+
+.msg-1{
+	width: 800px;
+	margin: 0 auto;
+    text-align: left;
+}
+
+.text-1{
+	text-align: center;
+	font-size: 20px;
+	font-family: arial;
+}
+
+h2{
+	background-color: #4b0066;
+	font-size: 35px;
+}
+
+img{
+	float: left;
+}
+
+.content-2{
+	display: inline;
+	float: left;
+	clear: left;
+	margin: 10px;
+}
+.msg-2{
+	width: 350px;
+	height: 200px;
+	margin: 12px;
+}
+.content-3{
+	display: inline;
+	float: left;
+	margin: 12px;
+	margin-left: 40px;
+}
+
+.content-4{
+	display: inline;
+	float: right;
+	clear: right;
+	margin: 12px;
+}
+
+.text-2{
+	font-size: 20px;
+}
+
+.footer{
+	background-color: #000000;
+	clear: both;
+}
+.last{
+	text-align: center;
+	color: #ffffff;
+	font-size: 25px;
+}
