@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/nepalcontact.css">
+	<script type="text/javascript" src="js/nepalcontact.js"></script>	
+	<title>CONTACT US</title>
+</head>
+<body>
+	<div class="content">
+		<div class= "header">
+			<h1>FEEL FREE TO CONTACT US: </h1>
+		</div>
+		
+		<div class="nav">
+			<ul>
+				<li><a href="earthquake.html">HOME</a></li>
+				<li><a href="nepalcontact.html">CONTACT</a></li>
+				<li><a href="nepalaboutus.html">ABOUT US</a></li>
+			</ul>
+		</div>
+
+		<button id="donate" onclick="donation()">donate here</button>
+
+		<div class="msg">
+			<p>
+				<b>If you have any messages for us please don't mind to write it here:</b>
+			</p>
+		</div>
+
+		<div class="form">
+			<form id="click" method="post" action="form_action.asp">
+			<p>
+				<strong>Full Name:</strong>
+			</p>	
+			<input id="Full-Name" type="text" size="30" value=" " />
+			
+			<p>
+				<strong>Your E-mail Address:</strong>
+			</p>	
+			<input id="Email" type="text" size="40" value=" " />
+			
+			<p id="write">
+				<strong>Write your message here:</strong>
+			</p>	
+			
+			<textarea rows="20" cols="50">
+			</textarea><br>
+			
+			<input type="button" value="submit" onclick="submitForm()">
+			</form>	
+		</div>
+
+		<div class="media">
+			<a href="https://www.facebook.com/supro.wilde" target="_blank">
+				<img class="facebook" src="images/facebook.png" alt="facebook">
+			</a>
+
+			<a href="mailto:suprowilde5@gmail.com" target="_blank">
+				<img class="gmail" src="images/Gmail.png" alt="gmail">
+			</a>
+
+			<a href="https://www.youtube.com/channel/UC3CWXFrDWwVlXU3D_-j5siQ" target="_blank">
+				<img class="youtube" src="images/youtube.png" alt="youtube">
+			</a>	
+		</div> 
+
+		<div class="footer">
+			<p class="last">
+				Nepal Earthquake Help Foundation copyright @ 2016. All Rights Reserved
+			</p>
+		</div>	
+
+	</div>
+
+
+</body>
+</html>
